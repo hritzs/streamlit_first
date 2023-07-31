@@ -6,9 +6,9 @@ from sklearn import linear_model
 
 # Predicting Prices for our new_diamonds.csv
 
-st.header("Let's Follow the approach from the Udacity course")
+st.header("First Header")
 
-st.write("Let's follow the approach from the Udacity Course and use a linear regressor model")
+st.write("Use a linear regressor model")
 
 #Importing our data
 new_diamonds = pd.read_csv("new_diamonds.csv")
